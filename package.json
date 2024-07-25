@@ -1,0 +1,21 @@
+{
+  "name": "devbills-api",
+  "version": "1.0.0",
+  "description": "devbills",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./ --fix",
+    "dev": "tsx watch ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
